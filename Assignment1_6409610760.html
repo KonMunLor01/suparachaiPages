@@ -41,15 +41,19 @@
             .col-12 {width: 100%;}
         }
         .header {
-            background-color: #021499;
+            background-color: #3A3B3B;
             color: #ffffff;
             padding: 15px;
         }
         .footer{
-            background-color: #021499;
+            background-color: #3A3B3B;
             color: #ffffff;
             padding: 15px;
             margin-top: 2%;
+        }
+        .menu{
+            margin-top: 2%;
+            margin-left: 3%;
         }
         .menu ul {
             list-style-type: none;
@@ -60,13 +64,26 @@
         .menu li {
             padding: 8px;
             margin-bottom: 7px;
-            background-color: #021499;
+            background-color: #3A3B3B;
             color: #ffffff;
             box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
         }
 
         .menu li:hover {
-            background-color: #192ECB;
+            background-color: #5C5D5D;
+        }
+        body{
+            background-color: #262727;
+            color: white;
+        }
+        .row {
+            display: flex;
+        }
+        .content{
+            border-radius: 25px;
+            background-color: #5C5D5D;
+            margin-left: 2%;
+            margin-top: 2%;
         }
     </style>
 </head>
@@ -75,72 +92,28 @@
         <h1>แนะนำตัว</h1>
     </div>
     <div class="row">
-        <div class="col-2 col-s-1 menu">
-                <ul>
-                    <li>วิดีโอแนะนำตัว</li>
-                    <li>รายละเอียดส่วนตัว</li>
-                    <li>TU Life</li>
-                    <li>My resume</li>
-                    <li>ข้อมูลติดต่อ</li>
-                </ul>
+        <div class="col-2 col-s-2 menu">
+            <img src="images directory/shi.jpg" width="100%">
+            <h2 style="text-align: center; color: white;">ศุภรชัย &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ทวีทอง</h2>
+            <ul>
+                <li>วิดีโอแนะนำตัว</li>
+                <li>รายละเอียดส่วนตัว</li>
+                <li>TU Life</li>
+                <li>My resume</li>
+                <li>ข้อมูลติดต่อ</li>
+            </ul>
         </div>
-        <div class="col-10">
-                <div class="container  border border-dark rounded " style="margin-top: 1%;">
-                    <h1 style="margin-top: 3%;">คลิปแนะนำตัว</h1>
-                    <video width="100%" controls>
-                        <source src="vdo directory/sawaddee.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="container-xxl  border border-dark rounded" style="margin-top: 1%;">
-                    <h1 style="margin-top: 3%;">ข้อมูลส่วนตัว</h1>
-                    <div class="row gx-0">
-                        <div class="col-3" style="text-align: center;">
-                            <img src="images directory/shi.jpg" width="75%" >
-                        </div>
-                        <div class="col-1" style=" border-left: 1px solid #000; "></div>
-                        <div class="col-8">
-                            <div class="row">
-                                <div class="col-4">
-                                    <h2> ชื่อ : นายศุภรชัย </h2>
-                                </div>
-                                <div class="col-8">
-                                    <h2> ทวีทอง </h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <h3> ชื่อเล่น : ริว </h3>
-                                </div>
-                                <div class="col-6">
-                                    <h3> อายุ: 20 ปี</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <h3> คณะ : วิทยาศาสตร์และเทคโนโลยี </h3>
-                                </div>
-                                <div class="col-6">
-                                    <h3> สาขา : วิทยาการคอมพิวเตอร์</h3>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <h3> งานอดิเรก : วาดรูป,ฟังเพลง,เล่นเกม </h3>
-                                </div>
-                            </div>
-                        
-                        </div>
+        <div class="col-8 col-s-8 content" >
+            <div style="margin-top: 1%;">
+                <h2 style="margin-top: 3%; margin-left: 2%;">คลิปแนะนำตัว</h2>
+                    <div style="text-align: center;">
+                        <video width="50%" controls>
+                            <source src="vdo directory/sawaddee.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <br>
-                </div> 
-    </div>
-    <div class="footer">
-        <div class="row">
-            <h1>ข้อมูลติดต่อ</h1>
+            </div>
         </div>
-        <div class="row">
-            <div class="col"></div>
-        </div>
+        
     </div>
     
 </body>

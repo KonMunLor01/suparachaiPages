@@ -1,6 +1,17 @@
-  /* For mobile phones: */
+ /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+}
+
+@media only screen and (max-width: 599px) {
+    .row{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .row-3{
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -71,6 +82,9 @@ body{
     color: white;
 }
 .row{
+    display: flex;
+}
+.row-3{
     display: flex;
 }
 .row-1{
